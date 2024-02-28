@@ -5,7 +5,6 @@ export default function ContactMe() {
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
         </p>
       </div>
       <form className="contact--form--container">
@@ -51,7 +50,7 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="choode-topic" className="contact--label">
+        {/* <label htmlFor="choode-topic" className="contact--label">
           <span className="text-md">Choose a topic</span>
           <select id="choose-topic" className="contact--input text-md">
             <option>Select One...</option>
@@ -59,7 +58,7 @@ export default function ContactMe() {
             <option>Item 2</option>
             <option>Item 3</option>
           </select>
-        </label>
+        </label> */}
         <label htmlFor="message" className="contact--label">
           <span className="text-md">Message</span>
           <textarea
@@ -76,6 +75,9 @@ export default function ContactMe() {
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
         </div>
+        <div className="samir_contact">
+        <h3>Or Contact me at samirstha2002@gmail.com</h3>
+      </div>
       </form>
     </section>
   );

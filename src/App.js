@@ -5,6 +5,7 @@ import Navbar from "./Pages/Home/Navbar";
 import Home from "./Pages/Home/Homescreen";
 
 function App() {
+  document.title = "Portfolio";
   return (
     <div className="App">
       <Router>

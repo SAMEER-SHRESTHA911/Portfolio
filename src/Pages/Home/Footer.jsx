@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.svg" alt="Logoipsum" />
+          <img src="./img/logo.png" alt="Logoipsum" />
         </div>
         <div className="footer--items">
           <ul>
@@ -62,7 +62,7 @@ function Footer() {
                 Contact
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 activeClass="navbar--active-content"
                 spy={true}
@@ -74,14 +74,14 @@ function Footer() {
               >
                 Testimonials
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="footer--social--icon">
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/samir.shrestha.404/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -102,7 +102,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.instagram.com/sameer._.1_28/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -123,7 +123,7 @@ function Footer() {
                 </svg>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://www.twitter.com/"
                 className="navbar--content"
@@ -143,10 +143,10 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/sameer-shrestha-6530b2227/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -172,7 +172,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by John</p>
+        <p className="footer--content">Made with 💖 by Sameer</p>
         <div className="footer--social--icon">
           <ul>
             <li>
@@ -188,7 +188,7 @@ function Footer() {
                 Privacy Policy
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 activeClass="navbar--active-content"
                 spy={true}
@@ -213,7 +213,7 @@ function Footer() {
               >
                 Cookies Settings
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
