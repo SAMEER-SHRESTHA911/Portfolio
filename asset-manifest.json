@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Sameer/static/css/main.c37b06a6.css",
+    "main.js": "/Portfolio-Sameer/static/js/main.bbcf9965.js",
+    "index.html": "/Portfolio-Sameer/index.html",
+    "main.c37b06a6.css.map": "/Portfolio-Sameer/static/css/main.c37b06a6.css.map",
+    "main.bbcf9965.js.map": "/Portfolio-Sameer/static/js/main.bbcf9965.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c37b06a6.css",
+    "static/js/main.bbcf9965.js"
+  ]
+}
