@@ -86,7 +86,8 @@ export default function ContactMe() {
           <span className="text-sm">I accept the terms</span>
         </label> */}
         <div>
-          <button type="submit" value="Send" className="btn btn-primary contact--form--btn">Submit</button>
+          <button className="btn btn-primary contact--form--btn">Submit</button>
+          {/* <button type="submit" value="Send" className="btn btn-primary contact--form--btn">Submit</button> */}
         </div>
         <div className="samir_contact">
         <h3>Or Contact me at samirstha2002@gmail.com</h3>
