@@ -17,7 +17,7 @@ export default function HeroSection() {
           </p>
         </div>
         <button className="btn btn-primary">
-          <a href=""download ="resume">Download CV
+          <a href={resume} download ='resume'>Download CV
           </a>
         </button>
       </div>
