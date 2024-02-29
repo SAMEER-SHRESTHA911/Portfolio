@@ -2,24 +2,24 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 export default function ContactMe() {
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm('service_d5xcshv', 'template_hq3wf2k', form.current, {
-        publicKey: 'DWlAPtnZB-1kcDFSp',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-          console.log(message);
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      )};
+  //   emailjs
+  //     .sendForm('service_d5xcshv', 'template_hq3wf2k', form.current, {
+  //       publicKey: 'DWlAPtnZB-1kcDFSp',
+  //     })
+  //     .then(
+  //       () => {
+  //         console.log('SUCCESS!');
+  //         console.log(message);
+  //       },
+  //       (error) => {
+  //         console.log('FAILED...', error.text);
+  //       },
+  //     )};
   return (
     <section id="Contact" className="contact--section">
       <div>
@@ -28,7 +28,8 @@ export default function ContactMe() {
         <p className="text-lg">
         </p>
       </div>
-      <form ref ={form} className="contact--form--container" onSubmit={sendEmail}>
+      {/* <form ref ={form} className="contact--form--container" onSubmit={sendEmail}> */}
+      <form className="contact--form--container">
         <div className="container">
           <label htmlFor="first-name" className="contact--label" name="first_name">
             <span className="text-md">First Name</span>
