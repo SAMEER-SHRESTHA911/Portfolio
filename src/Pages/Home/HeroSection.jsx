@@ -1,3 +1,5 @@
+import resume from '../../data/Sameer Shrestha -cv.pdf';
+
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
@@ -14,7 +16,10 @@ export default function HeroSection() {
             <br /> An enthusiast...😁
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <button className="btn btn-primary">
+          <a href=""download ="resume">Download CV
+          </a>
+        </button>
       </div>
       <div className="hero--section--img">
         <img src="./img/farewell12.jpg" alt="Me" />
